@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator budzeta</title>
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+
+<body>
+    <h1 class="title">Budzet</h1>
+    <div class="info">
+        <div class="sum-prihod" style="color: green;"></div>
+        <div class="sum-rashod" style="color: red;"></div>
+        <div class="rest"></div>
+    </div>
+    <div class="forma">
+            <div class="tip">
+                <select id="tip">
+                    <option value="0" selected disabled>Izaberite transakciju</option>
+                    <option value="1" style="color: green;">PRIHOD</option>
+                    <option value="2" style="color: red;">RASHOD</option>
+                </select><br>
+                <p id="errTip" style="color: red;"></p>
+            </div>
+            <div class="input-opis">
+                <label>Opis:</label>
+                <input type="text" id="opis"><br>
+                <p id="errOpis" style="color: red;"></p>
+            </div>
+            <div class="input-iznos">
+                <label>Iznos:</label>
+                <input type="number" id="iznos"><br>
+                <p id="errIznos" style="color: red;"></p>
+            </div>
+            <button type="submit" class="potvrdi">Dodaj</button>
+    </div>
+   
+    <div class="podaci">
+
+        <div class="prihodi">
+            <p style="color: green;">PRIHODI</p>
+        </div>
+        <div class="rashodi">
+            <p style="color: red;">RASHODI</p>
+        </div>
+
+    </div>
+
+    <script type="module" src="./src/index.js"></script>
+</body>
+
+</html>
