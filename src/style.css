@@ -1,0 +1,56 @@
+
+body{
+	text-align: center;
+}
+
+.title{
+color: black;
+text-align: center;
+}
+
+.prihodi {
+    display:inline-block;
+    margin:10px 20px;
+	margin-left: 110px;
+	width: 500px;
+   
+}
+.rashodi {
+    display: inline-block;
+	width: 500px;
+    margin:10px 20px;
+	margin-right: 110px;
+    color: red;
+ 
+}
+#input-opis {
+    padding-right: 100px;
+}
+#input-iznos {
+    padding-left: 100px;
+}
+#procenat {
+    padding-left: 10px;
+}
+
+p{
+    display: inline-block;
+
+}
+.sum-prihod{
+    text-align: right;
+    margin-right: 200px;
+	color: green	
+}
+.sum-rashod{
+    text-align: right;
+    margin-right: 200px;
+	color: red
+}
+.rest {
+    text-align: right;
+    margin-right: 200px;
+	color: black
+
+}
+
